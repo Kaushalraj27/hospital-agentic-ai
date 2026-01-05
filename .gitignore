@@ -1,0 +1,5 @@
+venv/
+task2_ml/
+__pycache__/
+*.pyc
+database/*.db
