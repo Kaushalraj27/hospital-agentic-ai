@@ -1,5 +1,66 @@
+# =========================
+# Python / Virtual Env
+# =========================
 venv/
-task2_ml/
+env/
+.venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Database files
+# =========================
+*.db
 database/*.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Task-2 ML artifacts
+# =========================
+task2_ml/trained_model/checkpoint-*
+task2_ml/trained_model/runs/
+task2_ml/trained_model/events.*
+task2_ml/trained_model/*.bin
+task2_ml/trained_model/*.pt
+task2_ml/trained_model/*.safetensors
+
+# =========================
+# Large ML / cache files
+# =========================
+.cache/
+.cache/huggingface/
+.huggingface/
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Zip / model archives
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.rar
